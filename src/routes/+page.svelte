@@ -1,15 +1,18 @@
 <script>
-    import { base } from '$app/paths';
+    import { base } from "$app/paths";
     import FAQs from "./faqs.svelte";
     import Me from "./about-me.svelte";
     import Contact from "./contact.svelte";
+    import Tips from "./tips.svelte";
 
     export let menu = "None";
 </script>
 
 <nav class="navbar navbar-expand-lg bg-light">
     <div class="container-fluid">
-        <a class="navbar-brand" href="/HellLetLooseHelper">Hell Let Loose Helper</a>
+        <a class="navbar-brand" href="/HellLetLooseHelper"
+            >Hell Let Loose Helper</a
+        >
         <button
             class="navbar-toggler"
             type="button"
@@ -62,7 +65,7 @@
 {#if menu === "Home"}
     <h1>Page In Progress</h1>
 {:else if menu === "Tips"}
-    <h1>Page In Progress</h1>
+    <Tips />
 {:else if menu === "FAQs"}
     <FAQs />
 {:else if menu === "Links"}
