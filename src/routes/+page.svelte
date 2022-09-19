@@ -23,7 +23,6 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <!-- <a class="nav-link active" aria-current="page" href="#">Home</a> -->
                 <a
                     class={menu === "Home" ? "nav-link active" : "nav-link"}
                     href="{base}/"
