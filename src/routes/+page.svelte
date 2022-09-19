@@ -1,3 +1,77 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
-<button type="button" class="btn btn-primary">Primary</button>
+<script>
+    import { base } from '$app/paths';
+    import FAQs from "./faqs.svelte";
+    import Me from "./about-me.svelte";
+    import Contact from "./contact.svelte";
+
+    export let menu = "None";
+</script>
+
+<nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/HellLetLooseHelper">Hell Let Loose Helper</a>
+        <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+        >
+            <span class="navbar-toggler-icon" />
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <!-- <a class="nav-link active" aria-current="page" href="#">Home</a> -->
+                <a
+                    class={menu === "Home" ? "nav-link active" : "nav-link"}
+                    href="{base}/"
+                    on:click|preventDefault={() => (menu = "Home")}>Home</a
+                >
+                <a
+                    class={menu === "Tips" ? "nav-link active" : "nav-link"}
+                    href="{base}/"
+                    on:click|preventDefault={() => (menu = "Tips")}>Tips</a
+                >
+                <a
+                    class={menu === "FAQs" ? "nav-link active" : "nav-link"}
+                    href="{base}/"
+                    on:click|preventDefault={() => (menu = "FAQs")}>FAQs</a
+                >
+                <a
+                    class={menu === "Links" ? "nav-link active" : "nav-link"}
+                    href="{base}/"
+                    on:click|preventDefault={() => (menu = "Links")}>Links</a
+                >
+                <a
+                    class={menu === "Me" ? "nav-link active" : "nav-link"}
+                    href="{base}/"
+                    on:click|preventDefault={() => (menu = "Me")}>About Me</a
+                >
+                <a
+                    class={menu === "Contact" ? "nav-link active" : "nav-link"}
+                    href="{base}/"
+                    on:click|preventDefault={() => (menu = "Contact")}
+                    >Contact</a
+                >
+            </div>
+        </div>
+    </div>
+</nav>
+
+{#if menu === "Home"}
+    <h1>Page In Progress</h1>
+{:else if menu === "Tips"}
+    <h1>Page In Progress</h1>
+{:else if menu === "FAQs"}
+    <FAQs />
+{:else if menu === "Links"}
+    <h1>Page In Progress</h1>
+{:else if menu === "Me"}
+    <Me />
+{:else if menu === "Contact"}
+    <Contact />
+{:else}
+    <h1>Page Not Found</h1>
+{/if}
