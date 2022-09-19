@@ -5,7 +5,7 @@
     import Contact from "./contact.svelte";
     import Tips from "./tips.svelte";
 
-    export let menu = "None";
+    export let menu = "Home";
 </script>
 
 <nav class="navbar navbar-expand-lg bg-light">

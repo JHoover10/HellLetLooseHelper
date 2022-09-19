@@ -1,4 +1,8 @@
 <h1>
+    General
+</h1>
+
+<h1>
 	Gamemodes
 </h1>
 
@@ -46,6 +50,10 @@
     Support
 </h3>
 
+<ul>
+    <li>If your supplies are off cooldown, you should start thinking about where you could put those supplies, anywhere is better than on your person.</li>
+</ul>
+
 <h3>
     Machine Gunner
 </h3>
@@ -54,9 +62,17 @@
     Anti-Tank
 </h3>
 
+<ul>
+    <li>You get two rockets every time you spawn, try not to die without using them.</li>
+</ul>
+
 <h3>
     Engineer
 </h3>
+
+<ul>
+    <li>Repair stations also exist, try to make one every once in a while.</li>
+</ul>
 
 <h2>
     Armor
