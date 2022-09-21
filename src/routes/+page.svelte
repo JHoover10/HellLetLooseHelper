@@ -4,6 +4,7 @@
     import Me from "./about-me.svelte";
     import Contact from "./contact.svelte";
     import Tips from "./tips.svelte";
+    import Links from "./links.svelte";
 
     export let menu = "Home";
 </script>
@@ -69,7 +70,7 @@
 {:else if menu === "FAQs"}
     <FAQs />
 {:else if menu === "Links"}
-    <h1>Page In Progress</h1>
+    <Links />
 {:else if menu === "Me"}
     <Me />
 {:else if menu === "Contact"}
