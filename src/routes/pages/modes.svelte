@@ -1,8 +1,13 @@
 <script>
-    import { offensive } from "../../data/modes";
+    import { offensive, warfare } from "../../data/rules";
 </script>
 
 <h1>Warfare</h1>
+<ul class="list-group">
+    {#each warfare as rule}
+        <li class="list-group-item">{rule}</li>
+    {/each}
+</ul>
 
 <h1>Offensive</h1>
 <h2>General</h2>
