@@ -1,10 +1,11 @@
 <script>
     import { base } from "$app/paths";
-    import FAQs from "./faqs.svelte";
-    import Me from "./about-me.svelte";
-    import Contact from "./contact.svelte";
-    import Tips from "./tips.svelte";
-    import Links from "./links.svelte";
+    import FAQs from "./pages/faqs.svelte";
+    import Me from "./pages/about-me.svelte";
+    import Contact from "./pages/contact.svelte";
+    import Tips from "./pages/tips.svelte";
+    import Links from "./pages/links.svelte";
+    import Modes from "./pages/modes.svelte";
 
     export let menu = "Home";
 </script>
@@ -31,6 +32,11 @@
                     class={menu === "Home" ? "nav-link active" : "nav-link"}
                     href="{base}/"
                     on:click|preventDefault={() => (menu = "Home")}>Home</a
+                >
+                <a
+                    class={menu === "Modes" ? "nav-link active" : "nav-link"}
+                    href="{base}/"
+                    on:click|preventDefault={() => (menu = "Modes")}>Mode Rules</a
                 >
                 <a
                     class={menu === "Tips" ? "nav-link active" : "nav-link"}
@@ -65,16 +71,18 @@
 
 {#if menu === "Home"}
     <h1>Page In Progress</h1>
+{:else if menu === "Modes"}
+    <Modes/>
 {:else if menu === "Tips"}
-    <Tips />
+    <h1>Page In Progress</h1>
 {:else if menu === "FAQs"}
-    <FAQs />
+    <h1>Page In Progress</h1>
 {:else if menu === "Links"}
-    <Links />
+    <Links/>
 {:else if menu === "Me"}
-    <Me />
+    <Me/>
 {:else if menu === "Contact"}
-    <Contact />
+    <Contact/>
 {:else}
     <h1>Page Not Found</h1>
 {/if}
