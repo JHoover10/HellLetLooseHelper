@@ -2,8 +2,8 @@
     import { links } from '../../data/links'
 </script>
 
-<ul>
+<ul class="list-group">
     {#each links as link}
-        <li><a href={link.link} class="link-primary">{link.title}</a></li>
+        <li class="list-group-item"><a href={link.link} class="link-primary">{link.title}</a></li>
     {/each}
 </ul>
