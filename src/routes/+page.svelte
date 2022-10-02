@@ -76,7 +76,7 @@
 {:else if menu === "Tips"}
     <Tips/>
 {:else if menu === "FAQs"}
-    <h1>Page In Progress</h1>
+    <FAQs/>
 {:else if menu === "Links"}
     <Links/>
 {:else if menu === "Me"}
