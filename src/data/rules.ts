@@ -12,7 +12,7 @@ export let offensive = {
     ],
     "defensiveTeam": [
         "Can place supplies from supply truck in the first row/column of the map.",
-        "Once the first point is captured the first two rows/columns will give you the \"TURN BACK\" timer.",
+        "Once the first point is captured the first two rows/columns will give you the \"TURN BACK NOW\" timer.",
         "Except for the first point, players can enter the first two rows/columns of the enemy territory."
     ]
 }
