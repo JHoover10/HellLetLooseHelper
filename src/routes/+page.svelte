@@ -44,11 +44,6 @@
                     on:click|preventDefault={() => (menu = "Tips")}>Tips</a
                 >
                 <a
-                    class={menu === "FAQs" ? "nav-link active" : "nav-link"}
-                    href="{base}/"
-                    on:click|preventDefault={() => (menu = "FAQs")}>FAQs</a
-                >
-                <a
                     class={menu === "Links" ? "nav-link active" : "nav-link"}
                     href="{base}/"
                     on:click|preventDefault={() => (menu = "Links")}>Links</a
@@ -75,8 +70,6 @@
     <Modes/>
 {:else if menu === "Tips"}
     <Tips/>
-{:else if menu === "FAQs"}
-    <FAQs/>
 {:else if menu === "Links"}
     <Links/>
 {:else if menu === "Me"}
