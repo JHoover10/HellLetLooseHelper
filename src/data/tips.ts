@@ -1,7 +1,8 @@
 export let tips = {
     "general": [
         "When going out of bounds players get 10 seconds to get back in, while vehicles get 30 seconds.",
-        "For classes/loadouts that get AP mines, make sure to place, you get more when you respawn."
+        "For classes/loadouts that get AP mines, make sure to place, you get more when you respawn.",
+        "Tanks cannot destroy engineer structures, but stachels can."
     ],
     "gameModes": {
         "offensive": [
@@ -10,11 +11,13 @@ export let tips = {
     },
     "roles": {
         "antiTank": [
-            "You get two rockets every time you spawn, try not to die without using them."
+            "You get two rockets every time you spawn, try not to die without using them.",
+            "Rockets can destroy OPs and garrisons."
         ],
         "armor": [
             "Always load armour piercing first.",
-            "Players render at 500m and vehicles at 1000m."
+            "Players render at 500m and vehicles at 1000m.",
+            "Once you have unlocked the loadout with the torch, you should always run it."
         ],
         "commander": [
             "You can drop preemptive supplies deep in enemy territory, which make it harder for the enemy to spot.",

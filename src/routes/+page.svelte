@@ -64,18 +64,20 @@
     </div>
 </nav>
 
-{#if menu === "Home"}
-    <h1>Page In Progress</h1>
-{:else if menu === "Modes"}
-    <Modes/>
-{:else if menu === "Tips"}
-    <Tips/>
-{:else if menu === "Links"}
-    <Links/>
-{:else if menu === "Me"}
-    <Me/>
-{:else if menu === "Contact"}
-    <Contact/>
-{:else}
-    <h1>Page Not Found</h1>
-{/if}
+<div class="container">
+    {#if menu === "Home"}
+        <h1>Page In Progress</h1>
+    {:else if menu === "Modes"}
+        <Modes/>
+    {:else if menu === "Tips"}
+        <Tips/>
+    {:else if menu === "Links"}
+        <Links/>
+    {:else if menu === "Me"}
+        <Me/>
+    {:else if menu === "Contact"}
+        <Contact/>
+    {:else}
+        <h1>Page Not Found</h1>
+    {/if}
+</div>
