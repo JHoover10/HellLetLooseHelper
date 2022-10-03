@@ -1,11 +1,11 @@
 {
   "node_modules/@sveltejs/kit/src/runtime/client/start.js": {
-    "file": "internal/immutable/start-2520575c.js",
+    "file": "internal/immutable/start-eac994a3.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/client/start.js",
     "isEntry": true,
     "imports": [
       "_index-07ed69c5.js",
-      "_singletons-82a75578.js",
+      "_singletons-f35b862d.js",
       "_paths-846459bd.js"
     ],
     "dynamicImports": [
@@ -26,16 +26,16 @@
     ]
   },
   "node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
-    "file": "internal/immutable/components/error.svelte-186b889b.js",
+    "file": "internal/immutable/components/error.svelte-549336ab.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/components/error.svelte",
     "isEntry": true,
     "imports": [
       "_index-07ed69c5.js",
-      "_singletons-82a75578.js"
+      "_singletons-f35b862d.js"
     ]
   },
   "src/routes/+page.svelte": {
-    "file": "internal/immutable/components/pages/_page.svelte-e7accd5b.js",
+    "file": "internal/immutable/components/pages/_page.svelte-27eab2c7.js",
     "src": "src/routes/+page.svelte",
     "isEntry": true,
     "imports": [
@@ -51,8 +51,8 @@
       "__layout-0ebf6292.js"
     ]
   },
-  "_singletons-82a75578.js": {
-    "file": "internal/immutable/chunks/singletons-82a75578.js",
+  "_singletons-f35b862d.js": {
+    "file": "internal/immutable/chunks/singletons-f35b862d.js",
     "imports": [
       "_index-07ed69c5.js",
       "_paths-846459bd.js"
@@ -77,7 +77,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/1.js": {
-    "file": "internal/immutable/chunks/1-c7cf9332.js",
+    "file": "internal/immutable/chunks/1-03375bc3.js",
     "src": ".svelte-kit/generated/nodes/1.js",
     "isDynamicEntry": true,
     "imports": [
@@ -85,7 +85,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/2.js": {
-    "file": "internal/immutable/chunks/2-c76496d3.js",
+    "file": "internal/immutable/chunks/2-3f850bd0.js",
     "src": ".svelte-kit/generated/nodes/2.js",
     "isDynamicEntry": true,
     "imports": [
