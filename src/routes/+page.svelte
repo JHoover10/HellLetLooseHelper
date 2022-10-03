@@ -64,7 +64,7 @@
     </div>
 </nav>
 
-<div class="container-fluid">
+<div class="container">
     {#if menu === "Home"}
         <h1>Page In Progress</h1>
     {:else if menu === "Modes"}
