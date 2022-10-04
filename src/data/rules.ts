@@ -1,16 +1,20 @@
 export let general = [
     "Cannot place OPs and garrisons in most covered buildings.",
-    "Cannot place AP and AT mines on your enemies last two rows/columns, unless that is the only area they control."
+    "Cannot place AP and AT mines on your enemies HQ two rows/columns, unless that is the only area they control."
 ]
 
 export let warfare = [
-    "Cannot place supplies from supply truck in the two rows/columns of either side of the map."
+    "Cannot place supplies from supply truck in the two rows/columns of either side of the map.",
+    "Both teams start the game with 1 medium tank (spawns middle), 1 light tank (spawns left/top), 1 recon tank (spawns right/bottom), 3 troop trucks, and 1 supply truck (spawns middle).",
+    "At the start of the game, the middle point is a \"neutral\" zone until one team captures it. While \"nuetral\" garrisons cannot be placed, but OPs can.",
+    "Players count of 1 times the cap strength while in the 4x4 zone around the point and count for 3 times the cap strength in the point."
 ]
 
 export let offensive = {
     "general": [
         "Offensive team gets only 30 minutes to capture the point, once the point is capture the 30 minutes resets.",
-        "When time runs out and the offensive team is capturing the point, the match will go into overtime and the offensive team will lose 5 manpower per second."
+        "When time runs out and the offensive team is capturing the point, the match will go into overtime and the offensive team will lose 5 manpower per second.",
+        "Players only counts for cap strength if they are in the point."
     ],
     "offensiveTeam": [
         "Cannot place supplies from supply truck in the two rows/columns of their side of the map.",

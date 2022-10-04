@@ -22,6 +22,12 @@
 
 <h1>Roles</h1>
 
+<ul class="list-group">
+    {#each tips.roles.general as tip}
+        <li class="list-group-item">{tip}</li>
+    {/each}
+</ul>
+
 <h3>Commander</h3>
 
 <ul class="list-group">
@@ -31,6 +37,14 @@
 </ul>
 
 <h3>Infantry</h3>
+
+<h5>Support</h5>
+
+<ul class="list-group">
+    {#each tips.roles.support as tip}
+        <li class="list-group-item">{tip}</li>
+    {/each}
+</ul>
 
 <h5>Anti-Tank</h5>
 
@@ -52,6 +66,14 @@
 
 <ul class="list-group">
     {#each tips.roles.armor as tip}
+        <li class="list-group-item">{tip}</li>
+    {/each}
+</ul>
+
+<h3>Recon</h3>
+
+<ul class="list-group">
+    {#each tips.roles.recon as tip}
         <li class="list-group-item">{tip}</li>
     {/each}
 </ul>
