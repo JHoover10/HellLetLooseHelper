@@ -16,7 +16,7 @@
 	<link rel="modulepreload" href="/HellLetLooseHelper/internal/immutable/components/pages/_layout.svelte-d1afb981.js">
 	<link rel="modulepreload" href="/HellLetLooseHelper/internal/immutable/modules/pages/_layout.js-04cad6c0.js">
 	<link rel="modulepreload" href="/HellLetLooseHelper/internal/immutable/chunks/_layout-0ebf6292.js">
-	<link rel="modulepreload" href="/HellLetLooseHelper/internal/immutable/components/pages/_page.svelte-e83cff74.js">
+	<link rel="modulepreload" href="/HellLetLooseHelper/internal/immutable/components/pages/modes/_page.svelte-bbf50295.js">
 	</head>
 	<body>
 		<div>
@@ -31,10 +31,21 @@
                 <a class="nav-link" href="/HellLetLooseHelper/about">About</a>
                 <a class="nav-link" href="/HellLetLooseHelper/contact">Contact</a></div></div></div></nav>
 
-<div class="container"></div>
+<div class="container"><h1>Warfare</h1>
+<ul class="list-group"><li class="list-group-item">Cannot place supplies from supply truck in the two rows/columns of either side of the map.</li></ul>
+
+<h1>Offensive</h1>
+<h2>General</h2>
+<ul class="list-group"></ul>
+
+<h2>Offensive Team</h2>
+<ul class="list-group"><li class="list-group-item">Cannot place supplies from supply truck in the two rows/columns of their side of the map.</li><li class="list-group-item">Recon team cannot reach artillery until the third/middle point is captured.</li><li class="list-group-item">Does NOT get artillery</li><li class="list-group-item">Starts with one garrison in front of the first point.</li></ul>
+
+<h2>Defensive Team</h2>
+<ul class="list-group"><li class="list-group-item">Can place supplies from supply truck in the first row/column of their side of the map.</li><li class="list-group-item">Once the first point is captured the first two rows/columns will give you the "TURN BACK NOW" timer.</li><li class="list-group-item">After the first point, players can enter the first two rows/columns of the enemy territory.</li><li class="list-group-item">Starts the game with 6 premade garrisons, 3 normal garrisons in base and 3 (one top, middle and bottom) near the second point.</li><li class="list-group-item">The premade garrisons do not apply to the 200m rule.</li></ul></div>
 
 
-		<script type="module" data-sveltekit-hydrate="wanppz">
+		<script type="module" data-sveltekit-hydrate="lrypuc">
 		import { start } from "/HellLetLooseHelper/internal/immutable/start-14777690.js";
 
 		start({
@@ -42,14 +53,14 @@
 			hydrate: {
 				status: 200,
 				error: null,
-				node_ids: [0, 2],
+				node_ids: [0, 6],
 				params: {},
-				routeId: "",
+				routeId: "modes",
 				data: (function(a){return [a,a]}(null)),
 				form: null
 			},
 			paths: {"base":"/HellLetLooseHelper","assets":"/HellLetLooseHelper"},
-			target: document.querySelector('[data-sveltekit-hydrate="wanppz"]').parentNode,
+			target: document.querySelector('[data-sveltekit-hydrate="lrypuc"]').parentNode,
 			trailing_slash: "never"
 		});
 	</script>

@@ -1,0 +1,38 @@
+h1 {
+    margin: 16px 0;
+}
+
+h2 {
+    margin: 16px 0;
+}
+
+h3 {
+    margin: 16px 0;
+}
+
+h5 {
+    margin: 16px 0;
+}
+
+.list-group-item {
+    border-color: rgba(255, 255, 255, 0.3);
+    background-color: rgb(25, 25, 25);
+    color: white;
+}
+
+body {
+    background-color: #111; 
+    color: white;
+}
+
+.navbar {
+    background-color: rgb(40, 40, 170);
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.nav-link {
+    color: white;
+}

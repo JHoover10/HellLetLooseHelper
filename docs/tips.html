@@ -16,7 +16,7 @@
 	<link rel="modulepreload" href="/HellLetLooseHelper/internal/immutable/components/pages/_layout.svelte-d1afb981.js">
 	<link rel="modulepreload" href="/HellLetLooseHelper/internal/immutable/modules/pages/_layout.js-04cad6c0.js">
 	<link rel="modulepreload" href="/HellLetLooseHelper/internal/immutable/chunks/_layout-0ebf6292.js">
-	<link rel="modulepreload" href="/HellLetLooseHelper/internal/immutable/components/pages/_page.svelte-e83cff74.js">
+	<link rel="modulepreload" href="/HellLetLooseHelper/internal/immutable/components/pages/tips/_page.svelte-e2c9c452.js">
 	</head>
 	<body>
 		<div>
@@ -31,10 +31,38 @@
                 <a class="nav-link" href="/HellLetLooseHelper/about">About</a>
                 <a class="nav-link" href="/HellLetLooseHelper/contact">Contact</a></div></div></div></nav>
 
-<div class="container"></div>
+<div class="container"><h1>General</h1>
+
+<ul class="list-group"><li class="list-group-item">When going out of bounds players get 10 seconds to get back in, while vehicles get 30 seconds.</li><li class="list-group-item">For classes/loadouts that get AP mines, make sure to place, you get more when you respawn.</li><li class="list-group-item">Tanks cannot destroy engineer structures, but stachels can.</li></ul>
+
+<h1>Game Modes</h1>
+
+<h3>Offensive</h3>
+
+<ul class="list-group"><li class="list-group-item">Premade garrisons can only be destroyed by dismantling them or taking the second point.</li></ul>
+
+<h1>Roles</h1>
+
+<h3>Commander</h3>
+
+<ul class="list-group"><li class="list-group-item">You can drop preemptive supplies deep in enemy territory, which make it harder for the enemy to spot.</li><li class="list-group-item">You can drop supplies in unaccesable areas of the map, a good example would be the middle area of Carentan.</li></ul>
+
+<h3>Infantry</h3>
+
+<h5>Anti-Tank</h5>
+
+<ul class="list-group"><li class="list-group-item">You get two rockets every time you spawn, try not to die without using them.</li><li class="list-group-item">Rockets can destroy OPs and garrisons.</li></ul>
+
+<h5>Engineer</h5>
+
+<ul class="list-group"><li class="list-group-item">Repair stations also exist, try to make one every once in a while.</li><li class="list-group-item">You can place supplies from a supply track past the second row/column and build nodes before the second row/column. This prevents them from being automatically destroyed if the enemy takes the second to last point on your side of the map.</li></ul>
+
+<h3>Armor</h3>
+
+<ul class="list-group"><li class="list-group-item">Always load armour piercing first.</li><li class="list-group-item">Players render at 500m and vehicles at 1000m.</li><li class="list-group-item">Once you have unlocked the loadout with the torch, you should always run it.</li></ul></div>
 
 
-		<script type="module" data-sveltekit-hydrate="wanppz">
+		<script type="module" data-sveltekit-hydrate="vwlezw">
 		import { start } from "/HellLetLooseHelper/internal/immutable/start-14777690.js";
 
 		start({
@@ -42,14 +70,14 @@
 			hydrate: {
 				status: 200,
 				error: null,
-				node_ids: [0, 2],
+				node_ids: [0, 7],
 				params: {},
-				routeId: "",
+				routeId: "tips",
 				data: (function(a){return [a,a]}(null)),
 				form: null
 			},
 			paths: {"base":"/HellLetLooseHelper","assets":"/HellLetLooseHelper"},
-			target: document.querySelector('[data-sveltekit-hydrate="wanppz"]').parentNode,
+			target: document.querySelector('[data-sveltekit-hydrate="vwlezw"]').parentNode,
 			trailing_slash: "never"
 		});
 	</script>
