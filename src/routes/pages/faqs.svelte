@@ -1,7 +1,7 @@
 <script>
     import Gamemodes from "../faqs/gamemodes.svelte";
     import { faqs } from "../../data/faqs";
-    import QandAs from "../components/QandAs.svelte";
+    import QandAs from "../../components/QandAs.svelte";
 </script>
 
 <h1>Gamemodes</h1>

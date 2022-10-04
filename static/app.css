@@ -2,6 +2,10 @@ h1 {
     margin: 16px 0;
 }
 
+h2 {
+    margin: 16px 0;
+}
+
 h3 {
     margin: 16px 0;
 }
@@ -18,5 +22,17 @@ h5 {
 
 body {
     background-color: #111; 
+    color: white;
+}
+
+.navbar {
+    background-color: rgb(40, 40, 170);
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.nav-link {
     color: white;
 }
