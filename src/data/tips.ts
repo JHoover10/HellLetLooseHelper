@@ -1,7 +1,11 @@
 export let tips = {
     "general": [
         "When going out of bounds players get 10 seconds to get back in, while vehicles get 30 seconds.",
-        "For classes/loadouts that get AP mines, make sure to place them, you get more when you respawn."  
+        "For classes/loadouts that get AP mines, make sure to place them, you get more when you respawn.",
+        "Spawn wave times are: HQ is 10s, OP is 20s, garrison is 40s, and airhead is 30s.",
+        "Players are like dinosaurs they can only sence movement.",
+        "Garrisons become disabled when an enemy comes to within 15m when placed in friendly territory and 100m in enemy territory.",
+        "When building garrisons in enemy territory start further from the point and build more toward it. Trying to get the perfect garrison the first time will most likely result with it being disabled for a long time."
     ],
     "gameModes": {
         "offensive": [
