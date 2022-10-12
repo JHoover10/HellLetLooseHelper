@@ -3,7 +3,7 @@
 
 <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
-        <a class="navbar-brand" href="/hell-let-loose-helper"
+        <a class="navbar-brand" href="/HellLetLooseHelper"
             >Hell Let Loose Helper</a
         >
         <button
@@ -19,12 +19,12 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-link" href="/hell-let-loose-helper/">Home</a>
-                <a class="nav-link" href="/hell-let-loose-helper/modes">Mode Rules</a>
-                <a class="nav-link" href="/hell-let-loose-helper/tips">Tips</a>
-                <a class="nav-link" href="/hell-let-loose-helper/links">Links</a>
-                <a class="nav-link" href="/hell-let-loose-helper/about">About</a>
-                <a class="nav-link" href="/hell-let-loose-helper/contact">Contact</a>
+                <a class="nav-link" href="/HellLetLooseHelper/">Home</a>
+                <a class="nav-link" href="/HellLetLooseHelper/modes">Mode Rules</a>
+                <a class="nav-link" href="/HellLetLooseHelper/tips">Tips</a>
+                <a class="nav-link" href="/HellLetLooseHelper/links">Links</a>
+                <a class="nav-link" href="/HellLetLooseHelper/about">About</a>
+                <a class="nav-link" href="/HellLetLooseHelper/contact">Contact</a>
             </div>
         </div>
     </div>

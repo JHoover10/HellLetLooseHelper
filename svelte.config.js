@@ -13,7 +13,7 @@ const config = {
       		precompress: false
         }),
 		paths: {
-			base: dev ? '/' : '/hell-let-loose-helper',
+			base: dev ? '/' : '/HellLetLooseHelper',
 		},
 		appDir: 'internal',
     }
