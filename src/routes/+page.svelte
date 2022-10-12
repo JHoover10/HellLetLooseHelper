@@ -1,1 +1,1 @@
-<img style="padding-top: 30px ;" src="/HellLetLooseHelper/images/hell-let-loose-large.jpeg" alt="Hell let loose" />
+<img style="padding-top: 30px ;" src="/hell-let-loose-helper/images/hell-let-loose-large.jpeg" alt="Hell let loose" />
